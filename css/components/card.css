@@ -1,0 +1,40 @@
+.card{
+    background-color: rgb(35, 35, 35);
+    width: 180px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: transform .5s;
+    margin: 0 30px;
+
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+}
+.card-img{
+    width:90%;
+    height: 55%;
+    margin: 15px auto;
+}
+
+.card-container{
+    width: 90%;
+    height: auto;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card-container-titulo{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 2px;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.card-container-descricao{
+    font-size: 14px;
+    color:grey;
+}
